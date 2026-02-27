@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw DM Scope Guard"
+  short_description: "Validate and enforce dmScope session routing"
+  default_prompt: "Use openclaw-dmscope-guard to set and persist a valid session.dmScope policy (default per-window -> per-channel-peer)."
