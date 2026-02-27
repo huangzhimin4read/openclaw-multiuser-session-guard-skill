@@ -65,3 +65,7 @@ Invalid value to avoid: `per-channel` (may cause config validation failures/rest
     ├── intro.zh-CN.md
     └── intro.en.md
 ```
+
+## GitHub About
+
+Use `docs/github-about.md` as the About copy draft, and `scripts/update_github_about.sh` to update Description/Homepage/Topics via GitHub API once `GITHUB_TOKEN` is set.
