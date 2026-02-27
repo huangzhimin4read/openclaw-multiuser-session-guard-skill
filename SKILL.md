@@ -1,5 +1,5 @@
 ---
-name: openclaw-dmscope-guard
+name: openclaw-multiuser-session-guard-skill
 description: Manage OpenClaw multi-user session routing by validating and enforcing session.dmScope. Use when users ask for shared vs isolated chat context, DM/group session mapping, or dmScope persistence after upgrades.
 metadata:
   openclaw:
@@ -40,7 +40,7 @@ Never set `per-channel` (invalid in current OpenClaw schema).
 
 ## Notes
 
-- This skill is installed under `~/.openclaw/skills/openclaw-dmscope-guard` so OpenClaw upgrades do not overwrite it.
+- This skill is installed under `~/.openclaw/skills/openclaw-multiuser-session-guard-skill` so OpenClaw upgrades do not overwrite it.
 - The installed systemd drop-in runs before gateway start and auto-corrects `dmScope`.
 - If user explicitly asks for shared context, switch to `--mode shared`.
 

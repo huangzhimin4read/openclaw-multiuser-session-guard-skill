@@ -174,7 +174,7 @@ def build_parser() -> argparse.ArgumentParser:
     install.add_argument("--mode", choices=sorted(MODE_TO_SCOPE), default="per-window")
     install.add_argument("--scope", choices=sorted(ALLOWED_SCOPES))
     install.add_argument("--service", default="openclaw-gateway.service")
-    install.add_argument("--dropin-name", default="20-skill-dmscope-guard.conf")
+    install.add_argument("--dropin-name", default="20-skill-multiuser-session-guard.conf")
     install.add_argument("--no-restart", action="store_true")
     install.add_argument("--cleanup-legacy", action="store_true")
 
